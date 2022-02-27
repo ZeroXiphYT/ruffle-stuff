@@ -1,0 +1,23 @@
+:root{
+    --cool-blue: #205b82;
+    --light-cool-blue: #3293d3;
+    --other-cool-blue: #0a97a2;
+    --other-other-cool-blue: #15adad;
+}
+
+a:any-link{
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #188474;
+    color: #f0efef;
+    text-decoration: none;
+    border-radius: .25rem;
+    height: fit-content;
+    min-width: 103px;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: var(--other-cool-blue);
+    color: black;
+}
