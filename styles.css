@@ -21,3 +21,7 @@ a:hover{
     background-color: var(--other-cool-blue);
     color: black;
 }
+
+fieldset{
+    display: inline-block;
+}
