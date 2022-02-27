@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Achievement Unlocked</title>
+</head>
+<body>
+    <div id="ruffle"></div>
+    <a href="index.html">Home Page</a>
+    <script src="ruffle/ruffle.js"></script>
+    <script>
+        var swfobject = {};
+
+swfobject.embedSWF = function(url, cont, width, height){
+    var ruffle = window.RufflePlayer.newest(),
+        player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
+            width: width,
+            height: height,
+            style: 'width: ' + width + 'px; height: ' + height + 'px',
+        });
+    
+    player.load({ url: url });
+}
+var height = screen.height;
+var width = screen.width;
+var swfHeight = parseInt('654px')
+var swfWidth = parseInt('896px')
+
+swfobject.embedSWF('swfs/achievement-unlocked.swf', 'ruffle', swfWidth , swfHeight);
+    </script>
+</body>
+</html>
