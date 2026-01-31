@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.cdnfonts.com/css/lemonmilk');
 
 :root{
     --cool-blue: #205b82;
@@ -27,7 +28,8 @@ a:any-link{
     transition: 
         background-color 1s,
         color 1s,
-        font-size 1.5s;
+        font-size 1s,
+        font-family 1s;
         
 }
 
@@ -35,6 +37,7 @@ a:hover{
     background-color: #8DF0DE;;
     color: black;
     font-size: 16px;
+    font-family: "Lemon/Milk", Tahoma;
 }
 
 
