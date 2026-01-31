@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Nothing+You+Could+Do&display=swap');
+
 :root{
     --cool-blue: #205b82;
     --light-cool-blue: #3293d3;
@@ -5,22 +7,36 @@
     --other-other-cool-blue: #15adad;
 }
 
+legend{
+    font-family: "Nothing You Could Do", Menlo, Verdana;
+    font-size: 18px;
+}
+
 a:any-link{
     box-sizing: border-box;
     display: inline-block;
-    background-color: #188474;
+    background-color: #BE92C8;
     color: #f0efef;
     text-decoration: none;
     border-radius: .25rem;
     height: fit-content;
     min-width: 103px;
     padding: 10px;
+    font-family: "Coming Soon", Verdana, Menlo;
+    font-size: 14px;
+    transition: 
+        background-color 1s,
+        color 1s,
+        font-size 1.5s;
+        
 }
 
 a:hover{
-    background-color: var(--other-cool-blue);
+    background-color: #8DF0DE;;
     color: black;
+    font-size: 16px;
 }
+
 
 fieldset{
     display: inline-block;
